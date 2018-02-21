@@ -1,0 +1,42 @@
+.home-wrapper {
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    color: white;
+    font-size: 45px;
+}
+
+.welcome-text {
+    font-family: 'Noto Serif', serif;
+}
+
+.my-name {
+    color: #CF5C36;
+}
+
+.see-my-work {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(52, 163, 148);
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    margin: 15px;
+}

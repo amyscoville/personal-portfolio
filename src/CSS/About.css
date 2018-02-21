@@ -1,0 +1,32 @@
+.about-wrapper {
+    margin-top: 45px;
+}
+
+.about-header {
+    padding: 20px;
+    text-align: center;
+    color: #CF5C36;
+}
+
+.about-content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.headshot {
+    height: 300px;
+    width: auto;
+    margin: 5px;
+}
+
+@media(max-width: 500px) {
+    .headshot {
+        height: 200px;
+        width: auto;
+    }
+}
+
+.about-paragraph {
+    padding: 10px;
+}

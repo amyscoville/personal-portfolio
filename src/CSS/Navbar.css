@@ -1,0 +1,28 @@
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: auto 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.home {
+    color: #CF5C36;
+}
+
+
+
+.nav-icon:hover {
+    cursor: pointer;
+}
