@@ -1,9 +1,16 @@
 [
     {
+        "name": "Spiced",
+        "folder": "spiced",
+        "mainImg": "recipes.png",
+        "filenames": ["add-recipe.png", "indv-recipe.png", "menu.png"],
+        "description": "Recipe management and menu planning app.",
+        "github": "https://github.com/amyscoville/menu-planner"
+    }, {
         "name": "All Over the World",
         "folder": "all-over",
-        "mainImg": "country.png",
-        "filenames": ["home.png", "countries.png", "about.png"],
+        "mainImg": "home.png",
+        "filenames": ["country.png", "countries.png", "about.png"],
         "description": "Educational website for children, inspired by Mem Fox's book \"Wherever You Are.\" Allows user to learn more about countries around the world.",
         "github": "https://github.com/amyscoville/all-over-the-world"
     }, {
@@ -13,14 +20,5 @@
         "filenames": ["knight.png", "queen.png"],
         "description": "A two-player chess game built with ES6.",
         "github": "https://github.com/amyscoville/Chess"
-    }, {
-        "name": "Spiced",
-        "folder": "spiced",
-        "mainImg": "recipes.png",
-        "filenames": ["add-recipe.png", "indv-recipe.png", "menu.png"],
-        "description": "Recipe management and menu planning app.",
-        "github": "https://github.com/amyscoville/menu-planner"
     }
-
-
 ]

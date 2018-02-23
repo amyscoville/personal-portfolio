@@ -6,10 +6,18 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: rgb(236, 236, 236);
+    margin: 5px;
+    border-radius: 10px;
 }
 
 .portfolio-piece-wrapper > * {
     padding: 5px;
+}
+
+.port-piece-header {
+    font-weight: 700;
+    color: rgb(52, 163, 148);    
 }
 
 .main-image {
@@ -19,15 +27,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .main-image:hover {
-    transform: scale(1.5) translateY(30px);
-    transition: all ease-in-out .5s;
-    transition-delay: .5s;
-} */
-
 .github-link {
     display: block;
-    color: rgb(52, 163, 148)
+    color: black;
 }
 
 .smaller-imgs-wrapper {
@@ -43,11 +45,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .smaller-images:hover {
-    transform: scale(4) translateY(-20px);
-    transition: all linear .3s;
-    transition-delay: .5s;
-} */
+.smaller-images:hover, .main-image:hover {
+    cursor: pointer;
+}
 
 .enlarge {
     width: 100vw;

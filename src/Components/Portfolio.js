@@ -44,7 +44,7 @@ class Portfolio extends Component {
                             <Modal className="backdrop-style" keyboard={true} show={this.state.showModal} animation={true}>
                                 <div className="image-modal">
                                     <Modal.Dialog>
-                                        <Modal.Body className="modal-body" onClick={this.toggleModal}>
+                                        <Modal.Body className="modal-body">
                                             <div className="modal-image-wrapper">
                                                 <img src={this.state.imgPath} alt="" className="modal-image"/>
                                             </div>
