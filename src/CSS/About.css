@@ -17,16 +17,23 @@
 .headshot {
     height: 300px;
     width: auto;
-    margin: 5px;
+    margin: 5%;
 }
 
-@media(max-width: 500px) {
-    .headshot {
-        height: 200px;
-        width: auto;
-    }
+.about-text {
+    padding: 5% 10%;
 }
 
 .about-paragraph {
-    padding: 10px;
+    padding: 10px 0;
+}
+
+@media(max-width: 600px) {
+    .headshot {
+        height: 200px;
+    }
+
+    .about-text {
+        padding: 0 5%;
+    }
 }

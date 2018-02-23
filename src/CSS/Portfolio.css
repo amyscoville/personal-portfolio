@@ -1,3 +1,17 @@
-.portfolio-content {
+.main-portfolio {
     padding-top: 45px;
+    padding-bottom: 50px;
+    overflow: scroll;
+}
+
+.portfolio-header {
+    text-align: center;
+    color: #CF5C36;
+    padding-top: 20px;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

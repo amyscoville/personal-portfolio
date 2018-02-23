@@ -1,13 +1,14 @@
 .nav-wrapper {
     position: fixed;
     top: 0;
-    height: 45px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Lato', sans-serif;
     background-color: black;
+    z-index: 1;
 }
 
 .nav-link {
@@ -23,6 +24,3 @@
 
 
 
-.nav-icon:hover {
-    cursor: pointer;
-}

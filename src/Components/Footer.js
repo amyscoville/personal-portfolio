@@ -1,20 +1,22 @@
 import React from 'react'
-import github from '../images/tealquoise-github.png';
-import linkedin from '../images/tealquoise-linkedin.png';
-import resume from '../images/resume.png';
+import { Link } from 'react-router-dom'
+
+import github from '../images/tealquoise-github.png'
+import linkedin from '../images/tealquoise-linkedin.png'
+import resume from '../images/resume.png'
 
 import '../CSS/Footer.css'
 
 function Footer() {
-    let githubStyle = {backgroundImage: `url(${github})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '45px', width: '45px'}
-        let linkedinStyle = {backgroundImage: `url(${linkedin})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '45px', width: '45px'}
-        let resumeStyle = {backgroundImage: `url(${resume})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '45px', width: '45px'}
+    let githubStyle = { backgroundImage: `url(${github})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '55px', width: '55px' }
+    let linkedinStyle = { backgroundImage: `url(${linkedin})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '55px', width: '55px' }
+    let resumeStyle = { backgroundImage: `url(${resume})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '55px', width: '55px' }
     return (
         <div className="footer-wrapper">
             <div className="icons">
-                <div className="nav-icon" style={githubStyle}></div>
-                <div className="nav-icon" style={linkedinStyle}></div>
-                <div className="nav-icon" style={resumeStyle}></div>
+                <a href="https://github.com/amyscoville" target="_blank" className="nav-icon" style={githubStyle}/>
+                <a href="https://www.linkedin.com/in/amy-scoville/" target="_blank" className="nav-icon" style={linkedinStyle}/>
+                {/* <Link className="nav-icon" to="/resume" style={resumeStyle}/> */}
             </div>
         </div>
     )
