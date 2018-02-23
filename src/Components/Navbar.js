@@ -5,11 +5,7 @@ import '../CSS/Navbar.css';
 
 
 export default class NavBar extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
-        
         return (
             <div className="nav-wrapper">
                 <Link className="nav-link home" to="/" style={{ display: (this.props.home ? 'none' : 'inline') }}>Home</Link>
