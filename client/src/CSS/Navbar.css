@@ -9,6 +9,7 @@
     font-family: 'Lato', sans-serif;
     background-color: black;
     z-index: 1;
+    box-shadow: 0 10px 10px -10px rgba(0,0,0,.5);
 }
 
 .nav-link {
