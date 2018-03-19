@@ -13,11 +13,11 @@ function Contact(props) {
                 <div className="contact-info">
                     <h1 className="contact-header actual-contact">CONTACT</h1>
                     <h4 className="contact-header question">Have a question? Want to work together?</h4>
-                    <form className="contact-form" action="">
-                        <input className="contact-inputs" type="text" placeholder="Name"/> 
-                        <input className="contact-inputs" type="text" placeholder="Email Address"/>
-                        <input className="contact-inputs" type="text" placeholder="Phone Number"/>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <form className="contact-form" action="thank-you" name="contact" method="POST" netlify>
+                        <input className="contact-inputs" type="text" name="name" placeholder="Name"/> 
+                        <input className="contact-inputs" type="text" name="email" placeholder="Email Address"/>
+                        <input className="contact-inputs" type="text" name="phone" placeholder="Phone Number"/>
+                        <textarea name="message" id="message" cols="30" name="message" rows="10" placeholder="Message"></textarea>
                         <button type="submit" id="submit">submit</button>
                     </form>
                 </div>
