@@ -14,6 +14,7 @@ function Contact(props) {
                     <h1 className="contact-header actual-contact">CONTACT</h1>
                     <h4 className="contact-header question">Have a question? Want to work together?</h4>
                     <form className="contact-form" action="/" name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact"/>
                         <input className="contact-inputs" type="text" name="name" placeholder="Name"/> 
                         <input className="contact-inputs" type="text" name="email" placeholder="Email Address"/>
                         <input className="contact-inputs" type="text" name="phone" placeholder="Phone Number"/>
